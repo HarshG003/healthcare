@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+}
+
+.size {
+    height: 400px;
+    width: 400px;
+}

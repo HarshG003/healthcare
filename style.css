@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* min-height: 70px; */
+    /* background-color: black; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header_attributes ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+.images {
+    display: flex;
+    width: 30%;
+}
+
+.logo {
+    /* padding: 10px; */
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+    /* aspect-ratio: 3/2; */
+    /* object-fit: contain; */
+}
+
+.logo1 {
+    /* padding: 10px; */
+    height: 150px;
+    width: 400px;
+    margin: 40px 10px;
+}
+
+.header_attributes ul li {
+    list-style: none;
+    margin: 90px 20px;
+}
+
+.header_attributes ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.slogan {
+    font-size: 75px;
+    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.main_content {
+    margin: 75px;
+    align-items: center;
+    display: flex;
+}
+
+.description {
+    font-size: 20px;
+    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    width: 45%;
+}
+
+.header_attributes ul li a:hover {
+    color: red;
+    transition: 0.15s ease-in-out;
+}
+
+.txt {
+    margin: 100px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    width: 45%;
+}
+
+.txt1 {
+    margin: 100px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    width: 45%;
+}
